@@ -1,0 +1,14 @@
+:root {
+  /* Paleta Node.js Dark Professional */
+  --node-dark: #1a1a1a;  /* Darkened background */
+  --node-dark-2: #222222;
+  --node-dark-3: #121212;
+  --node-green: #8cc84b;
+  --node-light: #f8f9fa;
+  --node-gray: #6c757d;
+  --node-green-hover: #7cb342;
+  
+  /* Glass effect variables */
+  --glass-bg: rgba(30, 30, 30, 0.7);
+  --glass-border: rgba(140, 200, 75, 0.2);
+}
