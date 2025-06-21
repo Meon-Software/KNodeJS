@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { NavItem, Article, TeamMember } from './types';
+import { FaRegGrinBeam, FaPaintBrush, FaCoffee, FaCat } from 'react-icons/fa'; // Importando FaCat
 
 export const KNodeJSLogoSvg = ({ size = 40, className = "" }: { size?: number, className?: string }) => (
   <svg
@@ -26,58 +27,8 @@ export const UserIconSvg = ({ className = "w-16 h-16 text-node-text-secondary" }
   </svg>
 );
 
-export const MothKanjiIconSvg = ({ className = "w-16 h-16 text-node-text-secondary" }: { className?: string }) => (
-  <svg 
-    className={className}
-    viewBox="0 0 60 60"
-    fill="currentColor" 
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    {/* Formato da cabeça/rosto da mariposa estilizado */}
-    <path d="M30 10 C 15 10, 10 20, 10 35 S 15 50, 30 50 S 45 50, 50 35 S 45 10, 30 10 Z" fillOpacity="0.8"/>
-    
-    {/* Olhos estilizados */}
-    <circle cx="22" cy="28" r="5" fill="#1E1E1E"/>
-    <circle cx="38" cy="28" r="5" fill="#1E1E1E"/>
-    <circle cx="22" cy="28" r="2" fill="currentColor" fillOpacity="0.5"/>
-    <circle cx="38" cy="28" r="2" fill="currentColor" fillOpacity="0.5"/>
-
-    {/* Antenas Curvadas */}
-    <path d="M22 20 Q20 12, 15 15" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round"/>
-    <path d="M38 20 Q40 12, 45 15" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round"/>
-    
-    {/* Kanji "知" (Conhecimento) na testa/centro */}
-    <text x="30" y="22" fontFamily="Arial, sans-serif" fontSize="12" fill="#1E1E1E" textAnchor="middle" fontWeight="bold">知</text>
-    
-    {/* Kanji "技" (Técnica) abaixo do "知" ou em outra posição central */}
-    <text x="30" y="42" fontFamily="Arial, sans-serif" fontSize="12" fill="#1E1E1E" textAnchor="middle" fontWeight="bold">技</text>
-
-    {/* Detalhes sutis no rosto */}
-    <path d="M25 38 Q30 35, 35 38" stroke="#1E1E1E" strokeWidth="1" fill="none" strokeOpacity="0.7"/>
-  </svg>
-);
-
-export const CoffeeCupIconSvg = ({ className = "w-16 h-16 text-node-text-secondary" }: { className?: string }) => (
-  <svg
-    className={className}
-    viewBox="0 0 60 60"
-    fill="currentColor"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    {/* Xícara */}
-    <path d="M10 20 H 45 C 50 20, 50 25, 50 30 V 45 C 50 50, 45 55, 40 55 H 15 C 10 55, 5 50, 5 45 V 30 C 5 25, 10 20, 10 20 Z" />
-    {/* Alça da xícara */}
-    <path d="M45 28 C 52 28, 52 38, 45 38" stroke="currentColor" strokeWidth="5" fill="none" strokeLinecap="round" />
-    {/* Conteúdo (café) */}
-    <rect x="8" y="23" width="34" height="8" fill="#2D2D2D" rx="2" />
-    {/* Vapor estilizado */}
-    <path d="M15 18 Q17 12, 20 18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeOpacity="0.7"/>
-    <path d="M25 16 Q27 10, 30 16" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeOpacity="0.7"/>
-    <path d="M35 18 Q37 12, 40 18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeOpacity="0.7"/>
-  </svg>
-);
-
-
+// MeonCatLogoSvg é substituído por um ícone de react-icons
+/*
 export const MeonCatLogoSvg = ({ className = "w-6 h-6", color = "currentColor" }: { className?: string; color?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
     <path d="M12,2C6.477,2,2,6.477,2,12s4.477,10,10,10s10-4.477,10-10S17.523,2,12,2z M12,3.5 c4.687,0,8.5,3.813,8.5,8.5s-3.813,8.5-8.5,8.5s-8.5-3.813-8.5-8.5S7.313,3.5,12,3.5z"/>
@@ -87,6 +38,9 @@ export const MeonCatLogoSvg = ({ className = "w-6 h-6", color = "currentColor" }
     <path d="M12,14.25c-2,0-3.5-1.25-3.5-2.75 0-.414-.336-.75-.75-.75S7,11.086,7,11.5 C7,14.538,9.239,17,12,17s5-2.462,5-5.5c0-.414-.336-.75-.75-.75s-.75.336-.75.75C15.5,13,14,14.25,12,14.25z"/>
   </svg>
 );
+*/
+
+export { FaCat as MeonCatIcon }; // Exportando o ícone de gato de react-icons
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Início', path: '/' },
@@ -107,9 +61,9 @@ export const MOCK_ARTICLES: Article[] = [
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
-  { id: '1', name: 'Israel Ribeiro', role: 'Líder de Projeto & Desenvolvedor Full-Stack', icon: <UserIconSvg /> },
-  { id: '2', name: 'Ana', role: 'Designer UI/UX & Desenvolvedora Frontend', icon: <UserIconSvg /> },
-  { id: '3', name: 'Vinicius Klein', role: 'Arquiteto de Software & Desenvolvedor Backend', icon: <UserIconSvg /> },
+  { id: '1', name: 'Israel Ribeiro', role: 'Líder de Projeto & Desenvolvedor Full-Stack', icon: <FaRegGrinBeam /> },
+  { id: '2', name: 'Ana', role: 'Designer UI/UX & Desenvolvedora Frontend', icon: <FaPaintBrush /> },
+  { id: '3', name: 'Vinicius Klein', role: 'Arquiteto de Software & Desenvolvedor Backend', icon: <FaCoffee /> },
 ];
 
 export const SEARCH_ICON = (
