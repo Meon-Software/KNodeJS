@@ -1,0 +1,126 @@
+@import 'variables.css';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Reset e estilos globais */
+* {
+  transition: background-color var(--transition-speed), 
+              color var(--transition-speed),
+              border-color var(--transition-speed);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--node-dark);
+  color: var(--node-light);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: 
+    radial-gradient(circle at center, 
+      rgba(140, 200, 75, 0.15) 0%, 
+      transparent 70%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='1'%3E%3Cpath d='M60,0 L120,30 L120,90 L60,120 L0,90 L0,30 Z'/%3E%3Cpath d='M60,0 L120,30 L120,90 L60,120 L0,90 L0,30 Z' transform='translate(60, 60)'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100px 100px;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Container principal */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(18, 18, 18, 0.9);
+}
+
+/* Header fixo e escuro */
+header {
+  background-color: var(--node-dark-3) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(140, 200, 75, 0.1);
+}
+
+/* Navegação */
+.navbar-nav .nav-link {
+  color: var(--node-gray-light) !important;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all var(--transition-speed);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--node-green) !important;
+  background-color: rgba(140, 200, 75, 0.1);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--node-green) !important;
+  font-weight: 500;
+}
+
+/* Efeito glass nas cards */
+.card-glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform var(--transition-speed), 
+              box-shadow var(--transition-speed);
+}
+
+.card-glass:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Textos */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--node-green-light);
+  font-weight: 600;
+}
+
+p, li {
+  color: #e0e0e0;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--node-green);
+  text-decoration: none;
+  transition: color var(--transition-speed);
+}
+
+a:hover {
+  color: var(--node-green-light);
+}
+
+/* Footer */
+footer {
+  background-color: var(--node-dark-3);
+  border-top: 1px solid rgba(140, 200, 75, 0.1);
+  color: var(--node-gray-light);
+  padding: 1.5rem 0;
+  margin-top: auto;
+}
+
+/* Transição entre páginas */
+.page-transition {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
