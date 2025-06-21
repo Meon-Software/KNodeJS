@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNodeJS - Base de Conhecimento Node.js</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'node-dark-bg': '#1E1E1E', // Um fundo escuro profundo, comum em IDEs
+              'node-content-bg': '#2D2D2D', // Um pouco mais claro para áreas de conteúdo
+              'node-text-primary': '#D4D4D4', // Texto principal claro, boa legibilidade
+              'node-text-secondary': '#A0A0A0', // Texto secundário, menos proeminente
+              'node-green': '#68A063', // Verde característico do Node.js
+              'node-green-dark': '#4F7A4F', // Verde mais escuro para hover/active
+              'node-border': '#3E3E3E', // Bordas sutis
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      /* Custom scrollbar for webkit browsers */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #2D2D2D;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #68A063;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #4F7A4F;
+      }
+    </style>
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-node-dark-bg">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
