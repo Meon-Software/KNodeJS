@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export interface NavItem {
@@ -11,7 +10,7 @@ export interface Article {
   title: string;
   summary: string;
   tags: string[];
-  // content?: string; // Optional full content for a detail page
+  content?: string; // Adicionado campo para conteúdo completo do artigo
 }
 
 export interface TeamMember {

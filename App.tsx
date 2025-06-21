@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import SearchPage from './pages/SearchPage';
 import TeamPage from './pages/TeamPage';
+import ArticleDetailPage from './pages/ArticleDetailPage'; // Importa a nova página
 import NotFoundPage from './pages/NotFoundPage';
 
 const App: React.FC = () => {
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/team" element={<TeamPage />} />
+          <Route path="/article/:articleId" element={<ArticleDetailPage />} /> {/* Nova rota */}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
