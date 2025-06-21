@@ -1,14 +1,18 @@
 :root {
   /* Paleta Node.js Dark Professional */
-  --node-dark: #1a1a1a;  /* Darkened background */
-  --node-dark-2: #222222;
-  --node-dark-3: #121212;
+  --node-dark: #121212;
+  --node-dark-2: #1a1a1a;
+  --node-dark-3: #222222;
   --node-green: #8cc84b;
+  --node-green-light: #a0d36c;
   --node-light: #f8f9fa;
   --node-gray: #6c757d;
-  --node-green-hover: #7cb342;
+  --node-gray-light: #8a8a8a;
   
-  /* Glass effect variables */
-  --glass-bg: rgba(30, 30, 30, 0.7);
-  --glass-border: rgba(140, 200, 75, 0.2);
+  /* Glass effect */
+  --glass-bg: rgba(30, 30, 30, 0.85);
+  --glass-border: rgba(140, 200, 75, 0.25);
+  
+  /* Transições */
+  --transition-speed: 0.3s;
 }
