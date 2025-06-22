@@ -2,6 +2,7 @@
 import React from 'react';
 import { NavItem, Article, TeamMember } from './types';
 import { FaRegGrinBeam, FaPaintBrush, FaCoffee, FaCat } from 'react-icons/fa'; // Importando FaCat
+import { GiTriforce } from "react-icons/gi";
 
 export const KNodeJSLogoSvg = ({ size = 40, className = "" }: { size?: number, className?: string }) => (
   <svg
@@ -61,7 +62,7 @@ export const MOCK_ARTICLES: Article[] = [
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
-  { id: '1', name: 'Israel Ribeiro', role: 'Líder de Projeto & Desenvolvedor Full-Stack', icon: <FaRegGrinBeam /> },
+  { id: '1', name: 'Israel Ribeiro', role: 'Líder de Projeto & Desenvolvedor Full-Stack', icon: <GiTriforce /> },
   { id: '2', name: 'Ana', role: 'Designer UI/UX & Desenvolvedora Frontend', icon: <FaPaintBrush /> },
   { id: '3', name: 'Vinicius Klein', role: 'Arquiteto de Software & Desenvolvedor Backend', icon: <FaCoffee /> },
 ];

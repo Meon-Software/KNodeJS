@@ -26,8 +26,8 @@ O **KNode.js** nasceu da necessidade de um espaço organizado e colaborativo par
 
 O objetivo é criar uma comunidade onde o conhecimento flui livremente, facilitando o aprendizado e a resolução de problemas do dia a dia.
 
-![Screenshot do Projeto](https://via.placeholder.com/800x450.png?text=Screenshot+da+Página+Inicial+do+KNode.js)
-<!-- Substitua o link acima por um screenshot real do seu projeto -->
+![Projeto]()
+
 
 ---
 
@@ -127,5 +127,3 @@ Sinta-se à vontade para abrir uma *issue* para relatar bugs ou sugerir novas fu
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-
-**Feito com ❤️ pela comunidade Node.js!**
