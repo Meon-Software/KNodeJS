@@ -62,8 +62,6 @@ Este projeto foi construído com as mais modernas tecnologias do ecossistema Jav
 -   **Ferramentas de Build:** Vite ou Webpack
 -   **Testes:** Jest e React Testing Library
 
-<!-- Adapte a stack principal acima conforme as tecnologias exatas do seu projeto -->
-
 ---
 
 ## 🚀 Começando
@@ -84,7 +82,7 @@ Siga os passos abaixo para executar o projeto em seu ambiente local.
 
 2.  **Acesse o diretório do projeto**
     ```sh
-    cd knodejs
+    cd KNodeJS
     ```
 
 3.  **Instale as dependências**
