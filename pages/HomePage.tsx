@@ -38,7 +38,7 @@ const HomePage: React.FC = () => {
           espaço onde desenvolvedores de todos os níveis possam encontrar informações valiosas,
           aprender novas técnicas e contribuir para uma comunidade crescente.
           O KNodeJS utiliza React e Tailwind CSS para uma experiência de usuário moderna e responsiva,
-          com um design "Dark Profissional NodeJS" para focar no conteúdo e proporcionar conforto visual.
+          para focar no conteúdo e proporcionar conforto visual.
         </p>
       </div>
     </div>
