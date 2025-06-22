@@ -79,7 +79,7 @@ Siga os passos abaixo para executar o projeto em seu ambiente local.
 
 1.  **Clone o repositório**
     ```sh
-    git clone [https://github.com/seu-usuario/knodejs.git](https://github.com/Meon-Software/KNodeJS.git)
+    git clone https://github.com/Meon-Software/KNodeJS.git
     ```
 
 2.  **Acesse o diretório do projeto**
