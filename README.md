@@ -26,7 +26,7 @@ O **KNode.js** nasceu da necessidade de um espaço organizado e colaborativo par
 
 O objetivo é criar uma comunidade onde o conhecimento flui livremente, facilitando o aprendizado e a resolução de problemas do dia a dia.
 
-![Projeto]()
+[![Demo Projeto](https://github.com/user-attachments/assets/3a540fbd-4dae-4809-b303-d6c78460a1df)](https://github.com/user-attachments/assets/3a540fbd-4dae-4809-b303-d6c78460a1df)
 
 
 ---
