@@ -1,6 +1,6 @@
 
 # KNode.js
-[![Made with TypeScript](https://img.shields.io/badge/-Made_with_TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![React](https://custom-icon-badges.demolab.com/badge/-React-218AAB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![Node.js](https://custom-icon-badges.demolab.com/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) [![Made with TypeScript](https://img.shields.io/badge/-Made_with_TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![React](https://custom-icon-badges.demolab.com/badge/-React-218AAB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/) 
 
 ![Status do Projeto](https://img.shields.io/badge/status-em%20desenvolvimento-yellow.svg)
 ![Linguagem Principal](https://img.shields.io/badge/TypeScript-91.5%25-blue.svg)
